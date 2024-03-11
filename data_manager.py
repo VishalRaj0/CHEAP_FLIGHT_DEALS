@@ -1,7 +1,7 @@
 import requests
 from flight_search import FlightSearch
 
-SHEETY_ENDPOINT = "https://api.sheety.co/e04ecb2313544d441ab321da7c4381c8/copyOfFlightDeals/prices"
+SHEETY_ENDPOINT = " YOUR SHEETY.CO ENDPOINT"
 SHEETY_CONFIG = {
     "price": {
         "iataCode": ""
