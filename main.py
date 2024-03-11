@@ -4,7 +4,7 @@ from flight_search import FlightSearch
 from data_manager import DataManager
 from notification_manager import NotificationManager
 
-sheety_endpoint = "https://api.sheety.co/e04ecb2313544d441ab321da7c4381c8/copyOfFlightDeals/prices"
+sheety_endpoint = "YOUR SHEETY.CO ENDPOINT"
 response_get = requests.get(sheety_endpoint)
 sheet_data = response_get.json()
 
