@@ -3,13 +3,13 @@ import datetime as dt
 from datetime import datetime
 
 TEQUILA_HEADERS = {
-    "apikey": "djwzedZxZcznvI2_zoZURgfE-1Ym50wT"
+    "apikey": "YOUR TEQUILA APIKEY"
 }
 
 TEQUILA_LOCATIONS = "https://api.tequila.kiwi.com/locations/query"
 TEQUILA_SEARCH = "https://api.tequila.kiwi.com/v2/search"
 
-DEPARTURE_CITY = "DEL"
+DEPARTURE_CITY = "DEL" #Replace this with the IATA Code of your departure city
 
 class FlightSearch:
     def __init__(self, sheet_data):
