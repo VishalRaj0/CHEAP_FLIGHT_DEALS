@@ -1,7 +1,7 @@
 import requests
 from flight_search import FlightSearch
 
-SHEETY_ENDPOINT = " YOUR SHEETY.CO ENDPOINT"
+SHEETY_ENDPOINT = "YOUR SHEETY.CO ENDPOINT"
 SHEETY_CONFIG = {
     "price": {
         "iataCode": ""
