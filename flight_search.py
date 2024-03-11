@@ -25,7 +25,7 @@ class FlightSearch:
             "fly_to": "",
             "date_from": (datetime.now().date() + dt.timedelta(1)).strftime("%d/%m/%Y"),
             "date_to": (datetime.now().date() + dt.timedelta(6*30)).strftime("%d/%m/%Y"),
-            "max_stopovers": 2
+            "max_stopovers": 1
         }
 
     def iata_code_finder(self, city_name):
