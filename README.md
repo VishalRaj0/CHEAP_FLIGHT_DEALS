@@ -21,4 +21,4 @@ After following the above steps, all you need to do is run "main.py" and message
 <h2>Important points</h2>
 1. Don't do typo in writing the city names in the google spreadsheet.<br>
 2. Each json file used for commiting POST request needs to have specific keys, don't change them. <br>
-3. Read the <a href="https://tequila.kiwi.com/portal/docs/tequila_api">TEQUILA API DOCS</a> and <a href="https://sheety.co/docs/requests.html">SHEETY.CO_API_DOCS</a> for better understanding of how these API work.
+3. Read the <a href="https://tequila.kiwi.com/portal/docs/tequila_api">TEQUILA API DOCS</a> and <a href="https://sheety.co/docs/requests.html">SHEETY.CO API DOCS</a> for better understanding of how these APIs work.
